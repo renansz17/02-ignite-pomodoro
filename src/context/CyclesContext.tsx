@@ -88,7 +88,7 @@ export function CyclesContextProvider({
   }
 
   function interruptCurrentCycle() {
-    dispatch(interruptCurrentCycleAction)
+    dispatch(interruptCurrentCycleAction())
   }
 
   return (
